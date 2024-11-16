@@ -1,0 +1,184 @@
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin-left: 33%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  margin-left: 33%;
+}
+
+.container:hover .overlay {
+  width: 35%;
+  margin-left: 33%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.footer1 {
+  background-color: #585858;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling untuk container */
+.container2 {
+  width: 30%;             /* Lebar container 40% dari lebar layar */
+  margin: 30px auto;      /* Menengahkan container di layar */
+  background-color: #decdc3; /* Background container */
+  text-align: center;     /* Menengahkan gambar dalam container */
+  display: flex;          /* Menggunakan flexbox untuk penyusunan */
+  justify-content: center; /* Menyusun konten di tengah secara horizontal */
+  align-items: center;    /* Menyusun konten di tengah secara vertikal */
+  height: 100%;           /* Mengatur tinggi container agar sama dengan gambar */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.image2 {
+  width: 90%;            /* Gambar mengambil 100% lebar container */
+  height: 90%;           /* Gambar mengambil 100% tinggi container */
+  border-radius: 8px;     /* Menambahkan sudut melengkung pada gambar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #e2e2e2;
+}
+
+
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.skill-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.skill-card .progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+.skill-card .btn {
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .skill-card {
+      margin-bottom: 15px;
+  }
+}
+
+.container4 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  font-size: 2em;
+}
+.experience {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.experience h3 {
+  margin-top: 0;
+}
+.experience p {
+  margin: 5px 0;
+}
+.date {
+  color: gray;
+  font-style: italic;
+}
+.company {
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+}
